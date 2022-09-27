@@ -1,0 +1,80 @@
+
+a {
+  color: $primary;
+  text-decoration: none;
+  -webkit-transition: all .15s cubic-bezier(.33,.66,.66,1);
+  transition: all .15s cubic-bezier(.33,.66,.66,1);
+}
+a:visited {}
+a:hover {}
+a:focus {}
+a:active {}
+
+
+main a {
+  color: #bae67e;
+  box-shadow: inset 0 -1px 0 #5ccfe6;
+  border-bottom: 2px solid #5ccfe6;
+  -webkit-transition: box-shadow 0.4s cubic-bezier(0.33, 0.66, 0.66, 1);
+  transition: box-shadow 0.4s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+main a:hover {
+  color: #5ccfe6;
+  border-bottom: 1px solid #2f3b54;
+  box-shadow: inset 0 -7px 0 #2f3b54;
+}
+main a:visited {
+  box-shadow: inset 0 -1px 0 #2f3b54;
+}
+
+/* Setze überall den Rand auf 0 */
+a a:visited,
+a:link img,
+a:hover img,
+a:focus img,
+a:active img,
+a img { border: 0; }
+
+p {
+  margin: 0 0 1rem;
+}
+ul {
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.right {
+  float: right;
+  margin: 0 0 0 1rem;
+}
+.left {
+  float: left;
+  margin: 0 1rem 0 0;
+}
+figure {
+  margin: 0 0 2rem 0;
+  padding: 0;
+}
+figcaption {
+  font-size: .75rem;
+  text-align: right;
+  color: #8695b7;
+}
+
+.button {
+  background: #bae67e;
+  color: #2f3b54;
+  padding: .5rem .75rem;
+  box-shadow: inset 0 -2px 0 #8695b7;
+  border-bottom: 0;
+  border-radius: 3px;
+  -webkit-transition: all 0.4s cubic-bezier(0.33, 0.66, 0.66, 1);
+  transition: all 0.4s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+.button:hover {
+  color: #1d2433;
+  border-bottom: 0;
+  box-shadow: inset 0 -4px 0 #8695b7;
+}

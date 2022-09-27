@@ -1,0 +1,25 @@
+/* TOC Layout
+
+- 
+
+*/
+
+/* Layout
+-------------------------------------------------------------------- */
+
+main {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.raster--spalten--3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 2rem;
+}

@@ -1,0 +1,63 @@
+/* TOC
+
+- Typography
+- Color Variables
+- Additional
+
+Farbschemata - https://halcyon-theme.netlify.app/
+#171c28
+#1d2433
+#2f3b54
+#6679a4
+#8695b7
+#a2aabc
+#d7dce2
+#ffcc66
+#5ccfe6
+#bae67e
+#ffae57
+#ffd580
+#c3a6ff
+#ef6b73
+
+
+*/
+
+/* Typography
+/* https://www.modularscale.com/?1&em&1.067
+------------------------------------------------------------------- */
+$base-font-family      : "Fira Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+$font-family-serif     : sans-serif;
+$font-family-sans      : "Fira Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+$font-family-mono      : sans-serif;
+$header-font-family    : sans-serif;
+
+$base-font-size        :    16px;
+$base-font-size-large  :    18px;
+$h1                    : 2.041em;
+$h2                    : 1.476em;
+$h3                    : 1.296em;
+$h4                    : 1.215em;
+$h5                    : 1.138em;
+$h6                    : 1.067em;
+$p                     :     1em;
+$small                 : 0.823em;
+$line-height           : 1.65;
+
+/* Additional
+------------------------------------------------------------------- */
+$border-radius         :    3px;
+$small-screen          :  540px;
+$medium-screen         :  800px;
+$large-screen          : 1000px;
+
+$primary               : #ffcc66;
+$secondary             : #bae67e;
+$bg                    : #171c28;
+$text-main             : #F8F8F2;
+$headline              : #F8BB39;
+$nav-link-col          : #aaaaaa;
+$link-col              : #bae67e;
+$link-col-hover        : #5ccfe6;
+$link-bg               : transparent;
+$link-bg-hover         : #F2BC79;

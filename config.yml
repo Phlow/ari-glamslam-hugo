@@ -1,0 +1,73 @@
+#      ___       _ __   __
+#     / _ )__ __(_) /__/ /
+#    / _  / // / / / _  /
+#   /____/\_,_/_/_/\_,_/
+#
+title                     : Ari Glamslam
+theme                     : hugo-skelett
+baseURL                   : ''
+languageCode              : de-DE
+defaultContentLanguage    : de
+copyright                 : 
+disableHugoGeneratorInject: true
+canonifyURLs              : true
+metadataformat            : yaml
+paginate                  : 7
+paginatepath              : seite
+summarylength             : 70
+
+disableKinds :
+  - taxonomy
+  - term
+
+uglyurls: true
+
+# keine robots.txt
+enableRobotsTXT : false
+
+# https://bwaycer.github.io/hugo_tutorial.hugo/extras/menus/
+SectionPagesMenu : main
+menu:
+  main:
+      - Name       : "☰"
+        Identifier : "Start"
+        URL        : "/"
+        weight     : -1000
+#      - Name: "Test 1"
+#        URL: "/getting-started/"
+
+params:
+  slogan                    : Ich programmiere und schreibe über Spiele
+  description: ''
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: true
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2

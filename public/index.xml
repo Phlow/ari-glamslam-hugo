@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Startseite on Ari Glamslam</title>
+    <link>/</link>
+    <description>Recent content in Startseite on Ari Glamslam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aktuelles</title>
+      <link>/aktuelles.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/aktuelles.html</guid>
+      <description>news</description>
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>/kontakt.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/kontakt.html</guid>
+      <description>hier formular</description>
+    </item>
+    
+    <item>
+      <title>Musikkritiken</title>
+      <link>/musikkritiken.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/musikkritiken.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spielekritiken</title>
+      <link>/spielekritiken.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/spielekritiken.html</guid>
+      <description>Rubrik: Online-Spiele
+Das niedliche Spiel Samorost
+BILD: Titelbild des Spiels Samorost
+Das Flash-Klick-Adventure Samorost von Jakub Dvorsky gehört zu den kleinen Dingen, die einen unendlich begeistern. Wie schon der erste Teil des Spiels, das Dvorsky im Rahmen seiner Abschlussarbeit an der Academy of Art, Architecture and Design in Prag entwickelte, verwöhnt die zweite Episode den Betrachter mit detailverliebten Bildern und einer wunderbaren Geschichte. Obendrein schafft es der Tscheche, im fantastischen zweiten Teil noch einen draufzusetzen.</description>
+    </item>
+    
+    <item>
+      <title>Über Mich</title>
+      <link>/info.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/info.html</guid>
+      <description>Über das Projekt</description>
+    </item>
+    
+  </channel>
+</rss>

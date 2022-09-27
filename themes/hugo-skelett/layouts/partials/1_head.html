@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <title>
+  {{- if .Page.Params.meta_title -}}
+    {{- .Page.Params.meta_title -}}
+  {{- else if .Page.Title -}}
+    {{- if .Page.Params.Subtitle }}{{- .Page.Params.Subtitle -}}: {{ end }}{{- .Page.Title -}}
+  {{- else -}}
+    {{- .Site.Title }} – {{ .Site.Params.slogan }}
+  {{- end -}}
+  </title>
+
+{{- $normalize := resources.Get "css/normalize.scss" | resources.ToCSS }}
+  <link rel="stylesheet" href="{{ $normalize.Permalink }}">
+{{- $style := resources.Get "css/styles.scss" | resources.ToCSS | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+{{- $navigation := resources.Get "css/navigation.scss" | resources.ToCSS | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $navigation.Permalink }}">
+
+</head>
+<body{{ if .Page.Params.body_class }} class="{{ .Page.Params.body_class }}"{{ end }}>

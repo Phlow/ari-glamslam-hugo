@@ -1,0 +1,6 @@
+{{ $custom := resources.Get "js/custom.js" }}
+{{ $concatjs := slice $custom | resources.Concat "js/scripts.js" }}
+<script src="{{ $concatjs.Permalink }}"></script>
+
+</body>
+</html>

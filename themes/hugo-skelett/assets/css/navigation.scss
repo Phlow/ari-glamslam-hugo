@@ -1,0 +1,54 @@
+ul.topnav {
+list-style: none; /* Bulletpoints entfernen */
+background-color: #2f3b54;
+margin: 0; /* Abstand auf 0 */
+padding: 0;
+overflow: hidden;
+/* Die overflow Eigenschaft legt fest, ob Inhalte aus einem Element hinausragen dürfen oder, ob Scrollbalken beim Überlauf zum Einsatz kommen. Mit hidden wird der Inhalt abgeschnitten und es werden keine Scrollbalken angezeigt. */
+}
+.topnav li a {
+display: block;
+float: left;
+padding: .75rem 1rem;
+text-decoration: none;
+color: #f2f2f2;
+text-shadow: 0 1px 3px #333;
+}
+.topnav a:hover {
+background-color: #6679a4;
+}
+.topnav li.active a {
+background-color: #ffae57;
+}
+.topnav .icon {
+display: none;  /* Menu und Icon in großer Ansicht entfernen */
+}
+@media screen and (max-width: 600px) {
+  .topnav li a {
+  display: none;
+  }
+  .topnav li.show a {
+  display: block;
+  }
+  .topnav a.icon {
+  float: right;
+  display: block;
+  }
+  .topnav.responsive {
+  position: relative;
+  }
+  .topnav.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  }
+  .topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+  }
+  .topnav svg {
+  margin-bottom: -1px;
+  padding: 0 6px 0 0;
+  }
+}

@@ -1,0 +1,24 @@
+@import "1_variables";
+@import "2_typography";
+@import "3_layout";
+@import "4_elements";
+@import "7_footer";
+
+body {
+font-family: $base-font-family;
+background-color: $bg;
+color: #fff;
+line-height: $line-height;
+}
+
+#masthead {
+  color: #fff;
+  min-height: 50px;
+  background-image: url('../../images/header-gaming.jpg');
+  background-position: center;
+  background-color: #ffee99;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+}
+

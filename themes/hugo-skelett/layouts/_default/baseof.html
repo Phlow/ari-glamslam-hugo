@@ -1,0 +1,22 @@
+{{- partial "1_head.html" . -}}
+
+{{- block "header" . }}
+{{ partial "2_header.html" . }}
+{{ end }}
+
+{{- block "navigation" . }}
+{{ partial "3_navigation.html" . }}
+{{- end }}
+
+  <main>
+{{- block "main" . }}{{- end }}
+  </main>
+
+{{- block "footer" . }}
+{{ partial "5_footer.html" . }}
+{{- end }}
+
+{{- block "javascript" . }}
+{{ partial "6_javascript.html" . }}
+{{- end }}
+

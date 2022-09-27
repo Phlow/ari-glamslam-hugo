@@ -1,0 +1,60 @@
+/* TOC
+
+- Typography
+- Color Variables
+- Additional
+
+Farbschemata - https://halcyon-theme.netlify.app/
+#171c28
+#1d2433
+#2f3b54
+#6679a4
+#8695b7
+#a2aabc
+#d7dce2
+#ffcc66
+#5ccfe6
+#bae67e
+#ffae57
+#ffd580
+#c3a6ff
+#ef6b73
+
+
+*/
+/* Typography
+/* https://www.modularscale.com/?1&em&1.067
+------------------------------------------------------------------- */
+/* Additional
+------------------------------------------------------------------- */
+/* TOC Layout
+
+- 
+
+*/
+/* Layout
+-------------------------------------------------------------------- */
+main {
+  margin: 0 auto;
+  width: 800px; }
+
+/* TOC mediaqueries
+
+- CSS Elements
+
+*/
+body {
+  font-family: "Fira Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #171c28;
+  color: #fff;
+  line-height: 1.65; }
+
+#masthead {
+  color: #fff;
+  min-height: 50px;
+  background-image: url("../../images/header-gaming.jpg");
+  background-position: center;
+  background-color: #ffee99;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem; }
