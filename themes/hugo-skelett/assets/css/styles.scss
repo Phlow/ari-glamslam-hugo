@@ -5,10 +5,10 @@
 @import "7_footer";
 
 body {
-font-family: $base-font-family;
-background-color: $bg;
-color: #fff;
-line-height: $line-height;
+  font-family: $base-font-family;
+  background-color: $bg;
+  color: #fff;
+  line-height: $line-height;
 }
 
 #masthead {
@@ -21,4 +21,3 @@ line-height: $line-height;
   background-size: cover;
   padding: 1rem;
 }
-

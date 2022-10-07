@@ -2,55 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Startseite on Ari Glamslam</title>
-    <link>/</link>
+    <link>https://phlow.github.io/ari-glamslam/</link>
     <description>Recent content in Startseite on Ari Glamslam</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de-DE</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>de-DE</language><atom:link href="https://phlow.github.io/ari-glamslam/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aktuelles</title>
-      <link>/aktuelles.html</link>
+      <link>https://phlow.github.io/ari-glamslam/aktuelles.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/aktuelles.html</guid>
+      <guid>https://phlow.github.io/ari-glamslam/aktuelles.html</guid>
       <description>news</description>
     </item>
     
     <item>
-      <title>Kontakt</title>
-      <link>/kontakt.html</link>
+      <title>Das niedliche Spiel Samorost</title>
+      <link>https://phlow.github.io/ari-glamslam/spielekritiken.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/kontakt.html</guid>
+      <guid>https://phlow.github.io/ari-glamslam/spielekritiken.html</guid>
+      <description>Titelbild des Spiels Samorost Online-Spiele · Das Flash-Klick-Adventure Samorost von Jakub Dvorsky gehört zu den kleinen Dingen, die einen unendlich begeistern. Wie schon der erste Teil des Spiels, das Dvorsky im Rahmen seiner Abschlussarbeit an der Academy of Art, Architecture and Design in Prag entwickelte, verwöhnt die zweite Episode den Betrachter mit detailverliebten Bildern und einer wunderbaren Geschichte. Obendrein schafft es der Tscheche, im fantastischen zweiten Teil noch einen draufzusetzen.</description>
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>https://phlow.github.io/ari-glamslam/kontakt.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://phlow.github.io/ari-glamslam/kontakt.html</guid>
       <description>hier formular</description>
     </item>
     
     <item>
       <title>Musikkritiken</title>
-      <link>/musikkritiken.html</link>
+      <link>https://phlow.github.io/ari-glamslam/musikkritiken.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/musikkritiken.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spielekritiken</title>
-      <link>/spielekritiken.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/spielekritiken.html</guid>
-      <description>Rubrik: Online-Spiele
-Das niedliche Spiel Samorost
-BILD: Titelbild des Spiels Samorost
-Das Flash-Klick-Adventure Samorost von Jakub Dvorsky gehört zu den kleinen Dingen, die einen unendlich begeistern. Wie schon der erste Teil des Spiels, das Dvorsky im Rahmen seiner Abschlussarbeit an der Academy of Art, Architecture and Design in Prag entwickelte, verwöhnt die zweite Episode den Betrachter mit detailverliebten Bildern und einer wunderbaren Geschichte. Obendrein schafft es der Tscheche, im fantastischen zweiten Teil noch einen draufzusetzen.</description>
+      <guid>https://phlow.github.io/ari-glamslam/musikkritiken.html</guid>
+      <description>Netlabel Compilation · Phlow-Magazine.com präsentiert &amp;ldquo;Destination Cologne&amp;rdquo;, eine Compilation mit Musik von Netlabels, die aus Köln stammen und hier leben. Kuratiert von mo. präsentiert diese Sammlung ein lebendiges Profil der freien elektronischen Musikszene in einer der aktivsten Städte Deutschlands.
+Nach Stockhausen und Kompakt macht sich ein neues Kollektiv daran, Köln wieder auf die Landkarte der elektronischen Musik zu setzen. Diese Netlabel-Buddies haben ihren Sound zur Compilation beigesteuert.
+Wir präsentieren stolz &amp;ldquo;Destination Cologne&amp;rdquo;, eine kostenlose Netlabel-Compilation von Netlabels aus Köln.</description>
     </item>
     
     <item>
       <title>Über Mich</title>
-      <link>/info.html</link>
+      <link>https://phlow.github.io/ari-glamslam/info.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/info.html</guid>
+      <guid>https://phlow.github.io/ari-glamslam/info.html</guid>
       <description>Über das Projekt</description>
     </item>
     

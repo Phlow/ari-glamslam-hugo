@@ -1,6 +1,8 @@
 ---
 title               : Musikkritiken
 ---
+<img src="images/cover-artwork-destination-cologne-vol1.jpg" alt="Titelbild des Spiels Samorost">
+
 Netlabel Compilation &middot; Phlow-Magazine.com präsentiert "Destination Cologne", eine Compilation mit Musik von Netlabels, die aus Köln stammen und hier leben. Kuratiert von mo. präsentiert diese Sammlung ein lebendiges Profil der freien elektronischen Musikszene in einer der aktivsten Städte Deutschlands.
 
 Nach Stockhausen und Kompakt macht sich ein neues Kollektiv daran, Köln wieder auf die Landkarte der elektronischen Musik zu setzen. Diese Netlabel-Buddies haben ihren Sound zur Compilation beigesteuert.
